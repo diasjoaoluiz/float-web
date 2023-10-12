@@ -38,6 +38,12 @@ export const NavItem = styled.div `
     }
 `;
 
+export const NavItemRight = styled.div `
+    display: flex;
+    align-items: center;
+    font-size: 1.125em;
+`;
+
 export const Right = styled.div`
     display: flex;
     align-items: center;

@@ -10,8 +10,9 @@ export default function MobileMenu ({active}) {
         <MobileMenuContainer sidebar={active}>
             <TopContainer>
                 <IconsContainer>
-                    <Icons src="/images/shopping-cart.png" alt=""></ Icons>
+                    <Icons src="/images/search.png" alt=""></ Icons>
                     <Icons src="/images/user.png" alt=""></ Icons>
+                    <Icons src="/images/shopping-cart.png" alt=""></ Icons>
                 </IconsContainer>
             </TopContainer>
             <Content>

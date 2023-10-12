@@ -7,7 +7,7 @@ export const MobileMenuContainer = styled.div `
     display: flex;
     flex-direction: column;
     height: max-content;
-    width: min(280rem, 60%);
+    width: min(400rem, 60%);
     min-height: 100vh;
     position: fixed;
     top: 0px;

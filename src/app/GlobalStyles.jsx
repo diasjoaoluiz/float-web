@@ -21,9 +21,8 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-  export const Text = styled.p`
-    font-size: ${({ size }) => fontSizes[size] || fontSizes.medium};
-  `;
-
-
+export const Text = styled.p`
+  font-size: ${({ size }) => fontSizes[size] || fontSizes.medium};
+`;
+  
 export default GlobalStyle;

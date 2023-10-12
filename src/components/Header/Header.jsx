@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Text } from '@/app/GlobalStyles';
 import MobileMenu from '../MobileMenu/MobileMenu';
 import React, { useState, useEffect, useRef } from 'react';
-import { Container, Content, Left, Logo, NavItem, Right, MobileMenuIcon, HeaderContainer } from './Styled.Header';
+import { Container, Content, Left, Logo, NavItem, Right, MobileMenuIcon, HeaderContainer, NavItemRight } from './Styled.Header';
 
 export default function Header () {
     const [sidebar, setSidebar] = useState(false);
@@ -66,15 +66,15 @@ export default function Header () {
                         </NavItem>
                     </Left>
                     <Right>
-                        <NavItem>
+                        <NavItemRight>
                             <img src="/images/search.png" alt="" />
-                        </NavItem>
-                        <NavItem>
+                        </NavItemRight>
+                        <NavItemRight>
                             <img src="/images/user.png" alt="" />
-                        </NavItem>
-                        <NavItem>
+                        </NavItemRight>
+                        <NavItemRight>
                             <img src="/images/shopping-cart.png" alt="" />
-                        </NavItem>
+                        </NavItemRight>
                         <MobileMenuIcon onClick={toggleHamburgerMenu} src="/images/menu-burger.png" alt=""></MobileMenuIcon>
                         {sidebar && <MobileMenu active={closeSidebar} />}
                     </Right>
