@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import React from 'react';
 import GlobalStyle from './GlobalStyles';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';

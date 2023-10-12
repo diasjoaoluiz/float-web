@@ -1,8 +1,5 @@
 "use client"
 import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import { Text } from '@/app/GlobalStyles';
 import { FooterContainer, Top, TopSections, Titles, ContainerRowMobile, FooterText, ImageRowMobile, RowMobile, Bottom, Left, Logo, Copyright, Right, Payments, ImgPayments } from './Styled.Footer';
 
 
