@@ -2,7 +2,6 @@
 import styled from "styled-components";
 
 export const MobileMenuContainer = styled.div `
-    background-color: blue;
     overflow-y: auto;
     align-self: flex-end;
     display: flex;
