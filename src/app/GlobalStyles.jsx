@@ -20,9 +20,32 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 `;
+export default GlobalStyle;
 
 export const Text = styled.p`
   font-size: ${({ size }) => fontSizes[size] || fontSizes.medium};
 `;
+
+export const TextWhite = styled(Text)`
+  color: white;
+`;
+
+export const DefaultButton = styled.button `
+  letter-spacing: 2px;
+  width: 150px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 20px; 
+  background-color: transparent; 
+  padding: 10px 20px;
+  text-decoration: none; 
+  color: white; 
+  display: inline-block; 
+  cursor: pointer; 
+
+  &:hover {
+    background-color: black;
+  }
+`;
   
-export default GlobalStyle;
+

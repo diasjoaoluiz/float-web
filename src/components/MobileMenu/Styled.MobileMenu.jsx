@@ -14,9 +14,11 @@ export const MobileMenuContainer = styled.div `
     top: 0px;
     z-index: 500;
     right: 0px;
+    
 
     @media screen and (max-width: 730px) {
         display: block;
+        
     }
 `;
 
