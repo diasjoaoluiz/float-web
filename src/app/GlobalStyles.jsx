@@ -24,10 +24,19 @@ export default GlobalStyle;
 
 export const Text = styled.p`
   font-size: ${({ size }) => fontSizes[size] || fontSizes.medium};
+  margin:0;
 `;
 
 export const TextWhite = styled(Text)`
   color: white;
+`;
+
+export const TextBold = styled(Text)`
+  text-decoration: bold;
+`;
+
+export const Title = styled.h1 `
+  font-size: 40px;
 `;
 
 export const DefaultButton = styled.button `

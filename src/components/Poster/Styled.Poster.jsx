@@ -67,7 +67,7 @@ export const ImagePoster = styled.img `
         height: 600px;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: auto;
+        background-position: center center;
 `;
 
 export const InfoMobile = styled.div `
