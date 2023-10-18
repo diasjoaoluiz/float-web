@@ -1,17 +1,17 @@
 "use client"
 import Link from 'next/link';
 import Image from 'next/image';
-import { CardContent, ImageCard } from './Styled.Card';
-import { Text, Title } from '@/app/GlobalStyles';
+import { CardContainer, CardContent, ImageCard, Pt10 } from './Styled.Card';
+import { Text, TextBold } from '@/app/GlobalStyles';
 
-export default function Card () {
+export default function Card (props) {
     return( 
-        <div>
+        <CardContainer>
             <CardContent>
-                <ImageCard src="/images/modelo2.jpg" alt=""></ImageCard>
-                <Text size="small" >Vestido Prada Vermelho tamanho "M"</Text>
-                <Text size="small">R$ 350,00</Text>
+                <ImageCard src={props.image} alt=""></ImageCard>
+                <Text size="small">{props.description}</Text>
+                <Pt10><TextBold size="small">{props.price}</TextBold></Pt10>
             </CardContent>
-        </div>
+        </CardContainer>
     );
 };

@@ -10,10 +10,12 @@ export default function Trending () {
         <TrendingContainer>
             <Pl10><Title>Trending Now</Title></Pl10>
             <TrendingContent>
-                <Card></Card>
-                <Card></Card>
-                <Card></Card>
-                <Card></Card>
+                <Card image="/images/modelo1.jpg" description="Vestido Azul + Luvas pretas" price="R$ 120,00"></Card>
+                <Card image="/images/modelo2.jpg" description="Vestido Vermelho renda da jamaica" price="R$ 120,00"></Card>
+                <Card image="/images/modelo3.jpg" description="Vestido esquisito prata bla bla bla" price="R$ 120,00"></Card>
+                <Card image="/images/modelo1.jpg" description="Vestido Azul + Luvas pretas" price="R$ 120,00"></Card>
+                <Card image="/images/modelo3.jpg" description="Vestido esquisito prata bla bla bla" price="R$ 120,00"></Card>
+                <Card image="/images/modelo2.jpg" description="Vestido Vermelho renda da jamaica" price="R$ 120,00"></Card>
             </TrendingContent>
         </TrendingContainer>
     );

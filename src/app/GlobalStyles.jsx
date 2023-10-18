@@ -32,11 +32,19 @@ export const TextWhite = styled(Text)`
 `;
 
 export const TextBold = styled(Text)`
-  text-decoration: bold;
+  font-weight: 500;
 `;
 
 export const Title = styled.h1 `
   font-size: 40px;
+
+  @media screen and (max-width: 820px) {
+    font-size: 30px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 25px;
+  }
 `;
 
 export const DefaultButton = styled.button `

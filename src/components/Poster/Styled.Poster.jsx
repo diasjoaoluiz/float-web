@@ -7,14 +7,15 @@ export const MainDiv = styled.div `
 `;
 
 export const PosterContainer = styled.div `
-        width: 100vw;
-        margin: 0;
-        padding: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top center;
 `;
 
 export const Info = styled.div `
         position: absolute;
-        top: 25rem;
+        top: 30rem;
         left: 3rem;
         width: 300px;
         height: 250px;   
@@ -63,11 +64,7 @@ export const ContainerInfo = styled.div `
 `;
 
 export const ImagePoster = styled.img `
-        width: 100vw;
-        height: 600px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
+        max-width: 100%;
 `;
 
 export const InfoMobile = styled.div `
