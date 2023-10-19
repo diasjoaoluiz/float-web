@@ -8,7 +8,7 @@ export default function Poster () {
     return(
         <MainDiv>
             <PosterContainer>
-                <ImagePoster src="https://images.pexels.com/photos/6626999/pexels-photo-6626999.jpeg" alt=""></ImagePoster>
+                <ImagePoster src="https://picsum.photos/2000/850" alt=""></ImagePoster>
                 <Info>
                     <TextWhite size="medium">E isso mesmo rapaziada <br /> bla bla bla bla bla bla bnla bnlsed</TextWhite>
                     <DefaultButton>SAIBA MAIS</DefaultButton>

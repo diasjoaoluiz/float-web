@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const CardContainer = styled.div`
     width: 100%;
+    cursor: pointer;
 `;
 
 export const CardContent = styled.div `

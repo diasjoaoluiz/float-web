@@ -15,7 +15,7 @@ export const PosterContainer = styled.div `
 
 export const Info = styled.div `
         position: absolute;
-        top: 30rem;
+        top: 20rem;
         left: 3rem;
         width: 300px;
         height: 250px;   
